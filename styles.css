@@ -74,5 +74,25 @@
     font-weight: bold;
 }
 
+@media (max-width: 1199px){
+    .own-contact-register-div{
+        padding: 30px;
+    }
+    .own-contact-h1{
+        margin-bottom: 20px;
+    }
+    .own-form-labels{
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 991px){
+
+    .own-navbar-links-font{
+        font-weight: 400;
+        font-size: 1rem;
+    }
+}
+
 
 
