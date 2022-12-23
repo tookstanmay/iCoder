@@ -1,0 +1,78 @@
+/* index.html */
+.own-card-border{
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.own-welcome-text{
+    font-size: 20px;
+}
+
+@media (max-width: 991px){
+
+    .own-trigger-buttons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 17px;
+    }
+}
+
+@media (max-width: 1111px) and (min-width: 991px){
+
+    .own-trigger-buttons{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        top: 100px;
+        z-index: 2;
+        right: 20px;
+    }
+}
+
+
+/* about.html */
+.own-divider{
+    display: inline-block;
+    width: 100%;
+    height: 70px;
+}
+
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(129, 129, 129, 0.205);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.custom-cards-own-1{
+    background-image: url('./images/jupiter.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.custom-cards-own-2{
+    background-image: url('./images/sky.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.custom-cards-own-3{
+    background-image: url('./images/martian.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* contact.html */
+.own-form-contact-page{
+    border: 1px solid gray;
+}
+
+.own-switch-checkbox{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+
