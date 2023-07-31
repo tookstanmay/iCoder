@@ -1,2 +1,4 @@
-# iCoder
-iCoder created from Bootstrap  5
+# iCoder: [visit here](https://tookstanmay.github.io/iCoder/)
+
+Technologies used:
+  * Frontend made using Bootstrap 5.
